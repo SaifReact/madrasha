@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="bn" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>মাদিনাতুল উলূম হাফিজিয়া মাদরাসা ও এতিমখানা</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
+    <!-- Google Fonts - Bengali Support -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@300;400;500;600;700;800&family=Noto+Nastaliq+Urdu:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/logo.png">
+</head>
+<body>
+
+    <!-- Top Bar with Bismillah -->
+    <div class="top-bismillah">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center flex-wrap">
+                <div class="date-time-display" id="dateTimeDisplay"></div>
+                <div class="bismillah-text">
+                    بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ
+                </div>
+                <div class="prayer-time-display" id="prayerTimeDisplay"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header with Logo and Title -->
+    <header class="main-header">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-3 col-md-12 text-center text-lg-start mb-3 mb-lg-0">
+                    <img src="images/madrasha_logo.png" alt="Logo" class="logo-img" data-aos="zoom-in">
+                </div>
+                <div class="col-lg-9 col-md-12">
+                    <div class="header-text-content">
+                        <!-- Arabic Text -->
+                        <div class="header-arabic" data-aos="fade-down" data-aos-delay="100">
+                            المدرسة الحافظة عم كو لى المبدا السعداء بدراسة حدث الصورة العلماء الحياة
+                        </div>
+                        
+                        <!-- Bengali Main Title -->
+                        <div class="header-title-bengali" data-aos="fade-up" data-aos-delay="100">
+                            মাদিনাতুল উলূম হাফিজিয়া মাদরাসা ও এতিমখানা
+                        </div>
+                        
+                        <!-- English Title -->
+                        <div class="header-title-english" data-aos="fade-up" data-aos-delay="100">
+                            Madinatul Ulum Hafizia Madrasha & Etimkhana
+                        </div>
+                        
+                        <!-- Address -->
+                        <div class="header-address" data-aos="fade-up" data-aos-delay="100">
+                            গ্রাম: গোবিন্দপুর, ডাকঘর: আশারামপুর, উপজেলা: রায়পুরা, জেলা: নরসিংদী। স্থাপিত: ২০২৫
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand d-lg-none" href="#">
+                <img src="images/logo.png" alt="Logo" height="40">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">
+                            <i class="bi bi-house-door"></i> প্রচ্ছদ
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">
+                            <i class="bi bi-info-circle"></i> পরিচিতি
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#courses">
+                            <i class="bi bi-book"></i> শিক্ষা কার্যক্রম
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#teachers">
+                            <i class="bi bi-people"></i> শিক্ষকবৃন্দ
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#facilities">
+                            <i class="bi bi-building"></i> সুবিধাসমূহ
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">
+                            <i class="bi bi-images"></i> ফটো গ্যালারি
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">
+                            <i class="bi bi-envelope"></i> যোগাযোগ
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Banner Section -->
+    <section id="home" class="hero-banner">
+        <div class="banner-overlay">
+            <img src="images/banner.jpg" alt="Madrasa Building" class="banner-image">
+            <div class="banner-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 mx-auto text-center">
+                            <h1 class="display-3 fw-bold text-white mb-4" data-aos="fade-down">
+                                &nbsp;
+                            </h1>
+                            <p class="lead text-white mb-5" data-aos="fade-up" data-aos-delay="200">
+                                ইসলামী শিক্ষা ও আদর্শ বিকাশের প্রতিষ্ঠান
+                            </p>
+                            <div class="banner-buttons" data-aos="fade-up" data-aos-delay="400">
+                                <a href="#about" class="btn btn-light btn-lg me-3">
+                                    <i class="bi bi-info-circle me-2"></i>আরও জানুন
+                                </a>
+                                <a href="#contact" class="btn btn-outline-light btn-lg">
+                                    <i class="bi bi-telephone me-2"></i>যোগাযোগ করুন
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Info Cards -->
+    <section class="quick-info py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-3 col-sm-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="info-card text-center">
+                        <div class="info-icon">
+                            <i class="bi bi-book-half"></i>
+                        </div>
+                        <h3>১০০০+</h3>
+                        <p>শিক্ষার্থী</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="info-card text-center">
+                        <div class="info-icon">
+                            <i class="bi bi-person-workspace"></i>
+                        </div>
+                        <h3>৫০+</h3>
+                        <p>অভিজ্ঞ শিক্ষক</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="info-card text-center">
+                        <div class="info-icon">
+                            <i class="bi bi-award"></i>
+                        </div>
+                        <h3>২৫+</h3>
+                        <p>বছরের অভিজ্ঞতা</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="info-card text-center">
+                        <div class="info-icon">
+                            <i class="bi bi-mortarboard"></i>
+                        </div>
+                        <h3>৫০০+</h3>
+                        <p>হাফেজ সম্পন্ন</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
+                    <div class="about-image">
+                        <img src="images/pre_madeasha.jpg" alt="About" class="img-fluid rounded shadow-lg">
+                        <img src="images/7.jpg" alt="About" class="img-fluid rounded shadow-lg">
+                        <div class="pattern-overlay"></div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="section-title mb-4">
+                        <span class="subtitle">আমাদের সম্পর্কে</span>
+                        <h2 class="fw-bold">মাদিনাতুল উলূম হাফিজিয়া মাদরাসা ও এতিমখানা</h2>
+                        <div class="title-border"></div>
+                    </div>
+                    <p class="lead mb-4">
+                        মাদিনাতুল উলূম হাফিজিয়া মাদরাসা ও এতিমখানা একটি ইসলামী শিক্ষা প্রতিষ্ঠান যা ইসলামী জ্ঞান ও আধুনিক শিক্ষার সমন্বয়ে শিক্ষার্থীদের গড়ে তোলে।
+                    </p>
+                    <div class="about-features">
+                        <div class="feature-item mb-3">
+                            <i class="bi bi-check-circle-fill text-success me-2"></i>
+                            <span>কুরআন হিফজ ও তাজবীদ শিক্ষা</span>
+                        </div>
+                        <div class="feature-item mb-3">
+                            <i class="bi bi-check-circle-fill text-success me-2"></i>
+                            <span>হাদিস ও ফিকহ শিক্ষা</span>
+                        </div>
+                        <div class="feature-item mb-3">
+                            <i class="bi bi-check-circle-fill text-success me-2"></i>
+                            <span>আরবি ভাষা শিক্ষা</span>
+                        </div>
+                        <div class="feature-item mb-3">
+                            <i class="bi bi-check-circle-fill text-success me-2"></i>
+                            <span>আধুনিক শিক্ষার সমন্বয়</span>
+                        </div>
+                        <div class="feature-item mb-3">
+                            <i class="bi bi-check-circle-fill text-success me-2"></i>
+                            <span>এতিম শিশুদের বিনামূল্যে শিক্ষা ও আবাসন</span>
+                        </div>
+                    </div>
+                    <a href="#contact" class="btn btn-primary btn-lg mt-3">
+                        <i class="bi bi-telephone me-2"></i>যোগাযোগ করুন
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration Certificate Section -->
+    <section id="certificate" class="certificate-section py-5 bg-light">
+        <div class="container">
+            <div class="section-title text-center mb-5" data-aos="fade-up">
+                <h2 class="fw-bold">নিবন্ধন সনদপত্র</h2>
+                <div class="title-border mx-auto"></div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-12 col-md-12" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="certificate-card">
+                        <div class="certificate-image-container">
+                            <img src="images/Madrasha-registration.jpg" alt="Registration Certificate" class="img-fluid certificate-img" id="certificateImg">
+                            <div class="certificate-overlay-btn">
+                                <button class="btn btn-light btn-sm" onclick="viewCertificate()">
+                                    <i class="bi bi-zoom-in me-2"></i>বড় করে দেখুন
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="courses-section py-5 bg-light">
+        <div class="container">
+            <div class="section-title text-center mb-5" data-aos="fade-up">
+                <span class="subtitle">আমাদের কোর্সসমূহ</span>
+                <h2 class="fw-bold">শিক্ষা কার্যক্রম</h2>
+                <div class="title-border mx-auto"></div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="course-card">
+                        <div class="course-icon">
+                            <i class="bi bi-book"></i>
+                        </div>
+                        <h3>হিফজুল কুরআন</h3>
+                        <p>পবিত্র কুরআন হিফজ করার জন্য বিশেষ কোর্স। অভিজ্ঞ শিক্ষকদের তত্ত্বাবধানে সম্পূর্ণ কুরআন মুখস্থ করার ব্যবস্থা।</p>
+                        <ul class="course-features">
+                            <li><i class="bi bi-check2"></i> মাখরাজ ও তাজবীদ শিক্ষা</li>
+                            <li><i class="bi bi-check2"></i> দৈনিক সবক ও দাওর</li>
+                            <li><i class="bi bi-check2"></i> মান্থলি পরীক্ষা</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="course-card">
+                        <div class="course-icon">
+                            <i class="bi bi-journal-text"></i>
+                        </div>
+                        <h3>নূরানী কোর্স</h3>
+                        <p>কুরআন সহীহভাবে পড়ার জন্য নূরানী পদ্ধতিতে প্রাথমিক শিক্ষা। শিশুদের জন্য বিশেষভাবে উপযোগী।</p>
+                        <ul class="course-features">
+                            <li><i class="bi bi-check2"></i> হরফ চেনা ও উচ্চারণ</li>
+                            <li><i class="bi bi-check2"></i> তাজবীদের মূল নিয়ম</li>
+                            <li><i class="bi bi-check2"></i> নামাজের সূরা শিক্ষা</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="course-card">
+                        <div class="course-icon">
+                            <i class="bi bi-translate"></i>
+                        </div>
+                        <h3>আরবি ভাষা শিক্ষা</h3>
+                        <p>আরবি ভাষা শিখে ইসলামী জ্ঞান অর্জনের পথ সুগম করুন। ব্যাকরণ, সাহিত্য ও কথোপকথন শিক্ষা।</p>
+                        <ul class="course-features">
+                            <li><i class="bi bi-check2"></i> নাহু ও সরফ</li>
+                            <li><i class="bi bi-check2"></i> আরবি সাহিত্য</li>
+                            <li><i class="bi bi-check2"></i> কথোপকথন অনুশীলন</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="course-card">
+                        <div class="course-icon">
+                            <i class="bi bi-clipboard-data"></i>
+                        </div>
+                        <h3>হাদিস শিক্ষা</h3>
+                        <p>সহীহ হাদিসের সংকলন ও ব্যাখ্যা শিক্ষা। বুখারী, মুসলিম সহ প্রধান হাদিস গ্রন্থের পাঠদান।</p>
+                        <ul class="course-features">
+                            <li><i class="bi bi-check2"></i> সহীহ বুখারী ও মুসলিম</li>
+                            <li><i class="bi bi-check2"></i> আবু দাউদ ও তিরমিযী</li>
+                            <li><i class="bi bi-check2"></i> হাদিসের ব্যাখ্যা</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+                    <div class="course-card">
+                        <div class="course-icon">
+                            <i class="bi bi-file-earmark-text"></i>
+                        </div>
+                        <h3>ফিকহ ও উসূল</h3>
+                        <p>ইসলামী আইনশাস্ত্র ও তার মূলনীতি সম্পর্কে বিস্তারিত শিক্ষা। দৈনন্দিন জীবনে প্রয়োগ।</p>
+                        <ul class="course-features">
+                            <li><i class="bi bi-check2"></i> ইবাদত ও মুয়ামালাত</li>
+                            <li><i class="bi bi-check2"></i> ফিকহের উসূল</li>
+                            <li><i class="bi bi-check2"></i> ফতোয়া শিক্ষা</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+                    <div class="course-card">
+                        <div class="course-icon">
+                            <i class="bi bi-stars"></i>
+                        </div>
+                        <h3>তাফসীর শিক্ষা</h3>
+                        <p>পবিত্র কুরআনের ব্যাখ্যা ও তাফসীর শিক্ষা। জীবনে কুরআনের বাণী বাস্তবায়ন।</p>
+                        <ul class="course-features">
+                            <li><i class="bi bi-check2"></i> তাফসীরে জালালাইন</li>
+                            <li><i class="bi bi-check2"></i> তাফসীরে ইবনে কাসীর</li>
+                            <li><i class="bi bi-check2"></i> তাফসীরের মূলনীতি</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Teachers Section -->
+    <section id="teachers" class="teachers-section py-5">
+        <div class="container">
+            <div class="section-title text-center mb-5" data-aos="fade-up">
+                <span class="subtitle">আমাদের শিক্ষকবৃন্দ</span>
+                <h2 class="fw-bold">অভিজ্ঞ ও দক্ষ শিক্ষকমণ্ডলী</h2>
+                <div class="title-border mx-auto"></div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="teacher-card text-center">
+                        <div class="teacher-img">
+                            <img src="images/9.jpg" alt="Teacher" class="img-fluid">
+                        </div>
+                        <div class="teacher-info">
+                            <h4>মাওলানা</h4>
+                            <p class="text-muted">প্রধান মুহতামিম</p>
+                            <p class="small">দাওরায়ে হাদিস, আল আজহার</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="teacher-card text-center">
+                        <div class="teacher-img">
+                            <img src="images/9.jpg" alt="Teacher" class="img-fluid">
+                        </div>
+                        <div class="teacher-info">
+                            <h4>মাওলানা</h4>
+                            <p class="text-muted">উপ-প্রধান</p>
+                            <p class="small">হাদিস ও ফিকহ বিশেষজ্ঞ</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="teacher-card text-center">
+                        <div class="teacher-img">
+                            <img src="images/9.jpg" alt="Teacher" class="img-fluid">
+                        </div>
+                        <div class="teacher-info">
+                            <h4>হাফেজ</h4>
+                            <p class="text-muted">হিফজ বিভাগের প্রধান</p>
+                            <p class="small">১০ বছরের হিফজ শিক্ষার অভিজ্ঞতা</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="teacher-card text-center">
+                        <div class="teacher-img">
+                            <img src="images/9.jpg" alt="Teacher" class="img-fluid">
+                        </div>
+                        <div class="teacher-info">
+                            <h4>মাওলানা</h4>
+                            <p class="text-muted">আরবি বিভাগের প্রধান</p>
+                            <p class="small">মদিনা বিশ্ববিদ্যালয় থেকে স্নাতক</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Facilities Section -->
+    <section id="facilities" class="facilities-section py-5 bg-light">
+        <div class="container">
+            <div class="section-title text-center mb-5" data-aos="fade-up">
+                <span class="subtitle">আমাদের সুবিধাসমূহ</span>
+                <h2 class="fw-bold">মানসম্মত সুযোগ-সুবিধা</h2>
+                <div class="title-border mx-auto"></div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="facility-card">
+                        <div class="facility-icon">
+                            <i class="bi bi-building"></i>
+                        </div>
+                        <h4>আধুনিক ভবন</h4>
+                        <p>শীতাতপ নিয়ন্ত্রিত আধুনিক শ্রেণিকক্ষ ও পড়াশোনার উপযোগী পরিবেশ।</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="facility-card">
+                        <div class="facility-icon">
+                            <i class="bi bi-house-heart"></i>
+                        </div>
+                        <h4>আবাসিক সুবিধা</h4>
+                        <p>শিক্ষার্থীদের জন্য পরিচ্ছন্ন ও নিরাপদ আবাসন ব্যবস্থা।</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="facility-card">
+                        <div class="facility-icon">
+                            <i class="bi bi-book-half"></i>
+                        </div>
+                        <h4>সমৃদ্ধ লাইব্রেরি</h4>
+                        <p>হাজারেরও বেশি ইসলামী ও সাধারণ বই সংবলিত লাইব্রেরি।</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="facility-card">
+                        <div class="facility-icon">
+                            <i class="bi bi-heart-pulse"></i>
+                        </div>
+                        <h4>চিকিৎসা সেবা</h4>
+                        <p>শিক্ষার্থীদের জন্য বিনামূল্যে চিকিৎসা ও ঔষধ সরবরাহ।</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="500">
+                    <div class="facility-card">
+                        <div class="facility-icon">
+                            <i class="bi bi-cup-hot"></i>
+                        </div>
+                        <h4>খাবার ব্যবস্থা</h4>
+                        <p>পুষ্টিকর ও স্বাস্থ্যসম্মত খাবার সরবরাহের ব্যবস্থা।</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="600">
+                    <div class="facility-card">
+                        <div class="facility-icon">
+                            <i class="bi bi-shield-check"></i>
+                        </div>
+                        <h4>নিরাপত্তা ব্যবস্থা</h4>
+                        <p>২৪ ঘণ্টা নিরাপত্তা ও সিসি ক্যামেরা মনিটরিং।</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery-section py-5">
+        <div class="container">
+            <div class="section-title text-center mb-5" data-aos="fade-up">
+                <span class="subtitle">আমাদের গ্যালারি</span>
+                <h2 class="fw-bold">ফটো গ্যালারি</h2>
+                <div class="title-border mx-auto"></div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="gallery-item">
+                        <img src="images/6.jpg" alt="Gallery" class="img-fluid">
+                        <div class="gallery-overlay">
+                            <i class="bi bi-zoom-in"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="gallery-item">
+                        <img src="images/5.jpg" alt="Gallery" class="img-fluid">
+                        <div class="gallery-overlay">
+                            <i class="bi bi-zoom-in"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="gallery-item">
+                        <img src="images/3.jpg" alt="Gallery" class="img-fluid">
+                        <div class="gallery-overlay">
+                            <i class="bi bi-zoom-in"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="gallery-item">
+                        <img src="images/4.jpg" alt="Gallery" class="img-fluid">
+                        <div class="gallery-overlay">
+                            <i class="bi bi-zoom-in"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+                    <div class="gallery-item">
+                        <img src="images/1.jpg" alt="Gallery" class="img-fluid">
+                        <div class="gallery-overlay">
+                            <i class="bi bi-zoom-in"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+                    <div class="gallery-item">
+                        <img src="images/2.jpg" alt="Gallery" class="img-fluid">
+                        <div class="gallery-overlay">
+                            <i class="bi bi-zoom-in"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section py-5 bg-light">
+        <div class="container">
+            <div class="section-title text-center mb-5" data-aos="fade-up">
+                <span class="subtitle">যোগাযোগ করুন</span>
+                <h2 class="fw-bold">আমাদের সাথে যোগাযোগ</h2>
+                <div class="title-border mx-auto"></div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4" data-aos="fade-right">
+                    <div class="contact-info">
+                        <div class="info-item mb-4">
+                            <div class="info-icon">
+                                <i class="bi bi-geo-alt-fill"></i>
+                            </div>
+                            <div class="info-content">
+                                <h5>ঠিকানা</h5>
+                                <p>গোবিন্দপুর, ডাকঘর: আশারামপুর, উপজেলা: রায়পুরা, জেলা: নরসিংদী</p>
+                            </div>
+                        </div>
+                        <div class="info-item mb-4">
+                            <div class="info-icon">
+                                <i class="bi bi-telephone-fill"></i>
+                            </div>
+                            <div class="info-content">
+                                <h5>ফোন</h5>
+                                <p>+৮৮০ ১৯৭৮ ৩৩৩৪৪৮</p>
+                                <p>+৮৮০ ১৯৭৮ ৩৩৩৪৪৮</p>
+                            </div>
+                        </div>
+                        <div class="info-item mb-4">
+                            <div class="info-icon">
+                                <i class="bi bi-envelope-fill"></i>
+                            </div>
+                            <div class="info-content">
+                                <h5>ইমেইল</h5>
+                                <p>info@madrasah.edu.bd</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8" data-aos="fade-left">
+                    <div class="contact-form">
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" placeholder="আপনার নাম *" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="email" class="form-control" placeholder="ইমেইল ঠিকানা *" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="tel" class="form-control" placeholder="ফোন নম্বর">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" placeholder="বিষয়">
+                                </div>
+                                <div class="col-12">
+                                    <textarea class="form-control" rows="5" placeholder="আপনার বার্তা *" required></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-primary btn-lg w-100">
+                                        <i class="bi bi-send me-2"></i>বার্তা পাঠান
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="footer-widget">
+                        <h4>মাদিনাতুল উলূম হাফিজিয়া মাদরাসা ও এতিমখানা</h4>
+                        <p class="mt-3">ইসলামী শিক্ষা ও আদর্শ বিকাশে নিবেদিত একটি প্রতিষ্ঠান। কুরআন ও হাদিসের আলোকে সমাজে আদর্শবান মানুষ গড়ে তোলাই আমাদের লক্ষ্য।</p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <div class="footer-widget">
+                        <h5>দ্রুত লিংক</h5>
+                        <ul class="footer-links">
+                            <li><a href="#home">প্রচ্ছদ</a></li>
+                            <li><a href="#about">পরিচিতি</a></li>
+                            <li><a href="#courses">কোর্সসমূহ</a></li>
+                            <li><a href="#teachers">শিক্ষকবৃন্দ</a></li>
+                            <li><a href="#contact">যোগাযোগ</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-widget">
+                        <h5>আমাদের সেবা</h5>
+                        <ul class="footer-links">
+                            <li><a href="#courses">হিফজুল কুরআন</a></li>
+                            <li><a href="#courses">হাদিস শিক্ষা</a></li>
+                            <li><a href="#courses">ফিকহ ও উসূল</a></li>
+                            <li><a href="#courses">আরবি ভাষা</a></li>
+                            <li><a href="#courses">এতিমখানা</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-widget">
+                        <h5>সোশ্যাল মিডিয়া</h5>
+                        <div class="social-links">
+                            <a href="#" class="social-link"><i class="bi bi-facebook"></i></a>
+                            <a href="#" class="social-link"><i class="bi bi-youtube"></i></a>
+                            <a href="#" class="social-link"><i class="bi bi-instagram"></i></a>
+                            <a href="#" class="social-link"><i class="bi bi-twitter"></i></a>
+                        </div>
+                        <div class="mt-4">
+                            <h6>নামাজের সময়সূচী</h6>
+                            <div class="prayer-times">
+                                <small>ফজর: ৫:১৫ | যোহর: ১২:১৫</small><br>
+                                <small>আসর: ৪:৩০ | মাগরিব: ৫:৪৫</small><br>
+                                <small>এশা: ৭:০০</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0">&copy; ২০২৫ মাদিনাতুল উলূম হাফিজিয়া মাদরাসা ও এতিমখানা। সর্বস্বত্ব সংরক্ষিত।</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <p class="mb-0">Developed with <i class="bi bi-heart-fill text-danger"></i> for Coder Station</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollTop" class="scroll-top">
+        <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- AOS Animation JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
