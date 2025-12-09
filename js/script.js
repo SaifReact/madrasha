@@ -130,7 +130,7 @@
     // ========================================
     // Active Menu Item on Scroll
     // ========================================
-    window.addEventListener('scroll', function() {
+    function updateActiveMenu() {
         const sections = document.querySelectorAll('section[id]');
         const navLinks = document.querySelectorAll('.nav-link');
         
@@ -147,11 +147,21 @@
 
         navLinks.forEach(link => {
             link.classList.remove('active');
-            if (link.getAttribute('href') === '#' + current) {
+            const href = link.getAttribute('href');
+            
+            // Check if link matches current section (for same page links)
+            if (href === '#' + current || href === 'index.php#' + current) {
                 link.classList.add('active');
             }
         });
-    });
+    }
+    
+    // Only run scroll detection on index page
+    if (window.location.pathname.includes('index.php') || window.location.pathname.endsWith('/')) {
+        window.addEventListener('scroll', updateActiveMenu);
+        // Run once on load
+        updateActiveMenu();
+    }
 
     // ========================================
     // Gallery Lightbox Effect
@@ -556,6 +566,70 @@
         modal.appendChild(modalContent);
         document.body.appendChild(modal);
     };
+
+    // ========================================
+    // Set Active Menu on Page Load
+    // ========================================
+    function setActiveMenuOnLoad() {
+        const currentPath = window.location.pathname;
+        const currentHash = window.location.hash;
+        const navLinks = document.querySelectorAll('.nav-link');
+        
+        // First, remove all active classes
+        navLinks.forEach(link => {
+            link.classList.remove('active');
+        });
+        
+        navLinks.forEach(link => {
+            const href = link.getAttribute('href');
+            
+            // For pages like mespage.php (without hash)
+            if (href && !href.includes('#')) {
+                if (currentPath.includes(href)) {
+                    link.classList.add('active');
+                }
+            }
+            // For hash links on index.php
+            else if (href && href.includes('#')) {
+                const linkHash = href.split('#')[1];
+                // Check if current hash matches
+                if (currentHash && currentHash === '#' + linkHash) {
+                    link.classList.add('active');
+                }
+                // If on index page with hash, activate that menu item
+                else if ((currentPath.includes('index.php') || currentPath.endsWith('/')) && currentHash === '#' + linkHash) {
+                    link.classList.add('active');
+                }
+            }
+        });
+        
+        // If no hash on index page, activate home by default
+        if ((currentPath.includes('index.php') || currentPath.endsWith('/')) && !currentHash) {
+            navLinks.forEach(link => {
+                if (link.getAttribute('href') === 'index.php#home' || link.getAttribute('href') === '#home') {
+                    link.classList.add('active');
+                }
+            });
+        }
+    }
+    
+    // Call on page load
+    setActiveMenuOnLoad();
+    
+    // Update on hash change
+    window.addEventListener('hashchange', function() {
+        setActiveMenuOnLoad();
+        
+        // Also trigger scroll-based activation if on index page
+        if (window.location.pathname.includes('index.php') || window.location.pathname.endsWith('/')) {
+            // Small delay to let scroll happen
+            setTimeout(function() {
+                if (typeof updateActiveMenu === 'function') {
+                    updateActiveMenu();
+                }
+            }, 100);
+        }
+    });
 
     console.log('Islamic Madrasa Website - JavaScript Loaded Successfully');
 

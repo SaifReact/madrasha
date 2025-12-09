@@ -1,0 +1,71 @@
+<section id="contact" class="contact-section py-5 bg-light">
+        <div class="container">
+            <div class="section-title text-center mb-5" data-aos="fade-up">
+                <span class="subtitle">যোগাযোগ করুন</span>
+                <h2 class="fw-bold">আমাদের সাথে যোগাযোগ</h2>
+                <div class="title-border mx-auto"></div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4" data-aos="fade-right">
+                    <div class="contact-info">
+                        <div class="info-item mb-4">
+                            <div class="info-icon">
+                                <i class="bi bi-geo-alt-fill"></i>
+                            </div>
+                            <div class="info-content">
+                                <h5>ঠিকানা</h5>
+                                <p>গোবিন্দপুর, ডাকঘর: আশারামপুর, উপজেলা: রায়পুরা, জেলা: নরসিংদী</p>
+                            </div>
+                        </div>
+                        <div class="info-item mb-4">
+                            <div class="info-icon">
+                                <i class="bi bi-telephone-fill"></i>
+                            </div>
+                            <div class="info-content">
+                                <h5>ফোন</h5>
+                                <p>+৮৮০ ১৯৭৮ ৩৩৩৪৪৮</p>
+                                <p>+৮৮০ ১৯৭৮ ৩৩৩৪৪৮</p>
+                            </div>
+                        </div>
+                        <div class="info-item mb-4">
+                            <div class="info-icon">
+                                <i class="bi bi-envelope-fill"></i>
+                            </div>
+                            <div class="info-content">
+                                <h5>ইমেইল</h5>
+                                <p>info@madrasah.edu.bd</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8" data-aos="fade-left">
+                    <div class="contact-form">
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" placeholder="আপনার নাম *" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="email" class="form-control" placeholder="ইমেইল ঠিকানা *" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="tel" class="form-control" placeholder="ফোন নম্বর">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" placeholder="বিষয়">
+                                </div>
+                                <div class="col-12">
+                                    <textarea class="form-control" rows="5" placeholder="আপনার বার্তা *" required></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-primary btn-lg w-100">
+                                        <i class="bi bi-send me-2"></i>বার্তা পাঠান
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
