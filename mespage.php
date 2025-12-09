@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="bn" dir="ltr">
-<?php include 'head.php'; ?>
+<?php 
+require_once 'config.php';
+include 'head.php'; 
+?>
 <body>
 
     <!-- Top Bar with Bismillah -->

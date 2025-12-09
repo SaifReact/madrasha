@@ -17,7 +17,7 @@
                         <div class="president-photo-wrapper mb-4">
                             <img src="images/president.jpg" alt="সভাপতির ছবি" class="img-fluid rounded-circle shadow-lg" style="width: 250px; height: 250px; object-fit: cover; border: 5px solid #1e7e34;">
                         </div>
-                        <h3 class="fw-bold text-primary mb-2">হাজী মো. আব্দুল করিম</h3>
+                        <h3 class="fw-bold text-primary mb-2">মুহাম্মদ ইকবাল হোসেন</h3>
                         <p class="text-muted mb-2">সভাপতি</p>
                         <p class="text-secondary small mb-3">মাদিনাতুল উলূম হাফিজিয়া মাদরাসা ও এতিমখানা</p>
                         <div class="president-contact-info text-start mt-4">
@@ -63,7 +63,7 @@
                             </p>
                             
                             <div class="signature-section mt-5 pt-4 border-top">
-                                <p class="mb-1"><strong>হাজী মো. আব্দুল করিম</strong></p>
+                                <p class="mb-1"><strong>মুহাম্মদ ইকবাল হোসেন</strong></p>
                                 <p class="mb-1 text-muted">সভাপতি</p>
                                 <p class="text-muted small">মাদিনাতুল উলূম হাফিজিয়া মাদরাসা ও এতিমখানা</p>
                             </div>
