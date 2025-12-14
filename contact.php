@@ -15,25 +15,8 @@
                             <div class="info-content">
                                 <h5>ঠিকানা</h5>
                                 <p>গোবিন্দপুর, ডাকঘর: আশারামপুর, উপজেলা: রায়পুরা, জেলা: নরসিংদী</p>
-                            </div>
-                        </div>
-                        <div class="info-item mb-4">
-                            <div class="info-icon">
-                                <i class="bi bi-telephone-fill"></i>
-                            </div>
-                            <div class="info-content">
-                                <h5>ফোন</h5>
-                                <p>+৮৮০ ১৯৭৮ ৩৩৩৪৪৮</p>
-                                <p>+৮৮০ ১৯৭৮ ৩৩৩৪৪৮</p>
-                            </div>
-                        </div>
-                        <div class="info-item mb-4">
-                            <div class="info-icon">
-                                <i class="bi bi-envelope-fill"></i>
-                            </div>
-                            <div class="info-content">
-                                <h5>ইমেইল</h5>
-                                <p>info@madrasah.edu.bd</p>
+                                <p>ফোন: +৮৮০ ১৯৭৮ ৩৩৩৪৪৮</p>
+                                <p>ইমেইল: muhm-etimkhana@gmail.com</p>
                             </div>
                         </div>
                     </div>

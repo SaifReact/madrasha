@@ -4,7 +4,7 @@
             <div class="row mb-5">
                 <div class="col-12 text-center" data-aos="fade-down">
                     <h1 class="display-4 fw-bold text-primary mb-3">
-                        <i class="bi bi-person-badge me-3"></i>সভাপতির বাণী
+                        <i class="bi bi-person-badge me-3"></i>প্রতিষ্ঠাতা সভাপতির বাণী
                     </h1>
                     <div class="title-underline mx-auto"></div>
                 </div>
@@ -18,11 +18,11 @@
                             <img src="images/president.jpg" alt="সভাপতির ছবি" class="img-fluid rounded-circle shadow-lg" style="width: 250px; height: 250px; object-fit: cover; border: 5px solid #1e7e34;">
                         </div>
                         <h3 class="fw-bold text-primary mb-2">মুহাম্মদ ইকবাল হোসেন</h3>
-                        <p class="text-muted mb-2">সভাপতি</p>
+                        <p class="text-muted mb-2">প্রতিষ্ঠাতা সভাপতি</p>
                         <p class="text-secondary small mb-3">মাদিনাতুল উলূম হাফিজিয়া মাদরাসা ও এতিমখানা</p>
                         <div class="president-contact-info text-start mt-4">
-                            <p class="mb-2"><i class="bi bi-telephone-fill text-success me-2"></i> +৮৮০ ১৭XX-XXXXXX</p>
-                            <p class="mb-2"><i class="bi bi-envelope-fill text-primary me-2"></i> president@madrasha.edu</p>
+                            <p class="mb-2"><i class="bi bi-telephone-fill text-success me-2"></i> +৮৮০ ১৯৭৮ ৩৩৩৪৪৮ </p>
+                            <p class="mb-2"><i class="bi bi-envelope-fill text-primary me-2"></i> iqbalr1979@gmail.com</p>
                         </div>
                     </div>
                 </div>
@@ -64,7 +64,7 @@
                             
                             <div class="signature-section mt-5 pt-4 border-top">
                                 <p class="mb-1"><strong>মুহাম্মদ ইকবাল হোসেন</strong></p>
-                                <p class="mb-1 text-muted">সভাপতি</p>
+                                <p class="mb-1 text-muted">প্রতিষ্ঠাতা সভাপতি</p>
                                 <p class="text-muted small">মাদিনাতুল উলূম হাফিজিয়া মাদরাসা ও এতিমখানা</p>
                             </div>
                         </div>

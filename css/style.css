@@ -459,7 +459,6 @@ body {
 
 .certificate-card {
     background: var(--white);
-    padding: 50px 40px;
     border-radius: 20px;
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -499,7 +498,6 @@ body {
 
 .certificate-image-container {
     position: relative;
-    margin: 30px 0;
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);

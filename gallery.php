@@ -54,6 +54,30 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+                    <div class="gallery-item">
+                        <img src="images/10.jpg" alt="Gallery" class="img-fluid">
+                        <div class="gallery-overlay">
+                            <i class="bi bi-zoom-in"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+                    <div class="gallery-item">
+                        <img src="images/11.jpg" alt="Gallery" class="img-fluid">
+                        <div class="gallery-overlay">
+                            <i class="bi bi-zoom-in"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+                    <div class="gallery-item">
+                        <img src="images/12.jpg" alt="Gallery" class="img-fluid">
+                        <div class="gallery-overlay">
+                            <i class="bi bi-zoom-in"></i>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
