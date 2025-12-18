@@ -8,6 +8,22 @@
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                     <div class="gallery-item">
+                        <img src="images/inugration.jpeg" alt="Gallery" class="img-fluid">
+                        <div class="gallery-overlay">
+                            <i class="bi bi-zoom-in"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="gallery-item">
+                        <img src="images/waz.jpeg" alt="Gallery" class="img-fluid">
+                        <div class="gallery-overlay">
+                            <i class="bi bi-zoom-in"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="gallery-item">
                         <img src="images/6.jpg" alt="Gallery" class="img-fluid">
                         <div class="gallery-overlay">
                             <i class="bi bi-zoom-in"></i>
@@ -49,6 +65,62 @@
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
                     <div class="gallery-item">
                         <img src="images/2.jpg" alt="Gallery" class="img-fluid">
+                        <div class="gallery-overlay">
+                            <i class="bi bi-zoom-in"></i>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+                    <div class="gallery-item">
+                        <img src="images/under-1.jpeg" alt="Gallery" class="img-fluid">
+                        <div class="gallery-overlay">
+                            <i class="bi bi-zoom-in"></i>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+                    <div class="gallery-item">
+                        <img src="images/under-2.jpeg" alt="Gallery" class="img-fluid">
+                        <div class="gallery-overlay">
+                            <i class="bi bi-zoom-in"></i>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+                    <div class="gallery-item">
+                        <img src="images/under-3.jpeg" alt="Gallery" class="img-fluid">
+                        <div class="gallery-overlay">
+                            <i class="bi bi-zoom-in"></i>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+                    <div class="gallery-item">
+                        <img src="images/under-4.jpeg" alt="Gallery" class="img-fluid">
+                        <div class="gallery-overlay">
+                            <i class="bi bi-zoom-in"></i>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+                    <div class="gallery-item">
+                        <img src="images/under-4.jpeg" alt="Gallery" class="img-fluid">
+                        <div class="gallery-overlay">
+                            <i class="bi bi-zoom-in"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+                    <div class="gallery-item">
+                        <img src="images/under-5.jpeg" alt="Gallery" class="img-fluid">
+                        <div class="gallery-overlay">
+                            <i class="bi bi-zoom-in"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+                    <div class="gallery-item">
+                        <img src="images/under-6.jpeg" alt="Gallery" class="img-fluid">
                         <div class="gallery-overlay">
                             <i class="bi bi-zoom-in"></i>
                         </div>
