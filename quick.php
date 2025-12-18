@@ -61,69 +61,56 @@
                         <div class="notice-scroll-wrapper">
                             <div class="notice-items" id="noticeItems">
                                 <!-- Notice Items -->
-                                <div class="notice-item">
+                                 <div class="notice-item">
                                     <div class="notice-icon">
                                         <i class="bi bi-bell-fill text-danger"></i>
                                     </div>
                                     <div class="notice-content">
-                                        <span class="notice-date">১৪ ডিসেম্বর ২০২৫</span>
-                                        <h5 class="notice-title">নতুন শিক্ষার্থী ভর্তি চলছে</h5>
-                                        <p class="notice-text">২০২৫-২০২৬ শিক্ষাবর্ষের জন্য হিফজ ও নাজেরা বিভাগে ভর্তি চলছে। আগ্রহী অভিভাবকগণ যোগাযোগ করুন।</p>
-                                    </div>
-                                </div>
+                                        <span class="notice-date">৩রা জানুয়ারী, ২০২৬ </span>
+                                        <h5 class="notice-title">দাওয়াত পত্র <br/> আসসালামু আলাইকুম ওরাহমাতুল্লাহ</h5>
+                              
+                                    <p class="notice-text">এতদ্বারা আপনাকে জানানো যাচ্ছে যে, আগামী ০৩-০১-২০২৬ ইং রোজ শনিবার বাদ আছর থেকে  মাদিনাতুল উলূম হাফিজিয়া মাদরাসা ও এতিমখানা এবং গোবিন্দপুর কেন্দ্রীয় জামে মসজিদ এর যৌথ উদ্যোগে ২য় বার্ষিক ওয়াজ ও দোয়া মাহফিল এবং মাদ্রাসার ভবন উদ্ভোধন  এর আয়োজন করা হয়েছে।</p>
 
-                                <div class="notice-item">
-                                    <div class="notice-icon">
-                                        <i class="bi bi-calendar-event text-success"></i>
-                                    </div>
-                                    <div class="notice-content">
-                                        <span class="notice-date">১০ ডিসেম্বর ২০২৫</span>
-                                        <h5 class="notice-title">বার্ষিক পরীক্ষার সময়সূচী</h5>
-                                        <p class="notice-text">আগামী ২০ ডিসেম্বর থেকে বার্ষিক পরীক্ষা শুরু হবে। সকল শিক্ষার্থীকে নিয়মিত উপস্থিত থাকার জন্য অনুরোধ করা হলো।</p>
-                                    </div>
-                                </div>
+                                    <ul>                                       
+                                    বিশেষ আকর্ষণ:
+                                        <li>মাদ্রাসার ১ম তলার ভবন উদ্ভোধন।</li>
+                                        <li>দ্বিতীয় তলাঃ কাজ চলমান রয়েছে।</li>
+                                        <li>ছাত্র সংখ্যা: ২০ জন (বিশ)।</li>
+                                        <li>শিক্ষক মন্ডলী: ৩ (তিন) জন।</li>
+                                        <li>খাদেম (৩) তিন জন।</li>
+                                        <li>গার্ড (১) এক জন।</li>
+                                    </ul>    
 
-                                <div class="notice-item">
-                                    <div class="notice-icon">
-                                        <i class="bi bi-gift text-warning"></i>
+                                    <p class="notice-text">
+                                    এই মাদ্রাসার উন্নয়ন, ছাত্রদের সাফল্য, এবং আমাদের সমাজের শান্তি ও সমৃদ্ধি কামনা করবো। আমাদের বিশ্বাস, আপনার উপস্থিতি অনুষ্ঠানের গৌরব বৃদ্ধি করবে এবং আমাদের কাজকে আরও উৎসাহিত করবে।
+                                    উক্ত মাহফিলে আপনার উপস্থিতি আমাদের একান্ত কাম্য।
+                                <br/><br/>
+                                 <div class="row">
+                                    <div class="col-md-12 text-center"><b style="text-align:center">ধন্যবাদান্তে</b><br/><br/></div>
+                                    <div class="col-md-6 text-center flex inline">
+                                    <p><b>মোঃ নুরুল হক ভূঁইয়া</b><br/>
+                                    সাধারণ সম্পাদক<br/>
+                                    মাদিনাতুল উলূম হাফিজিয়া মাদরাসা ও এতিমখানা</p></div>
+                                    <div class="col-md-6 text-center flex inline">
+                                    <p><b>মুহাম্মদ ইকবাল হোসেন</b><br/>
+                                    প্রতিষ্ঠাতা সভাপতি<br/>
+                                    মাদিনাতুল উলূম হাফিজিয়া মাদরাসা ও এতিমখানা</p>
                                     </div>
-                                    <div class="notice-content">
-                                        <span class="notice-date">০৫ ডিসেম্বর ২০২৫</span>
-                                        <h5 class="notice-title">এতিম শিশুদের জন্য দান</h5>
-                                        <p class="notice-text">এতিমখানার শিশুদের জন্য আপনার সদকা ও অনুদান প্রয়োজন। মহান আল্লাহ আপনাদের প্রতিদান দিন।</p>
-                                    </div>
-                                </div>
+                                 </div>
+                                    
+                                </p>
 
-                                <div class="notice-item">
-                                    <div class="notice-icon">
-                                        <i class="bi bi-book text-info"></i>
                                     </div>
-                                    <div class="notice-content">
-                                        <span class="notice-date">০১ ডিসেম্বর ২০২৫</span>
-                                        <h5 class="notice-title">নতুন কোর্স চালু হয়েছে</h5>
-                                        <p class="notice-text">আরবি ভাষা শিক্ষা ও তাজবীদ বিষয়ক বিশেষ কোর্স চালু করা হয়েছে। বিস্তারিত জানতে যোগাযোগ করুন।</p>
-                                    </div>
-                                </div>
+                                </div> 
 
                                 <div class="notice-item">
                                     <div class="notice-icon">
                                         <i class="bi bi-award-fill text-primary"></i>
                                     </div>
                                     <div class="notice-content">
-                                        <span class="notice-date">২৫ নভেম্বর ২০২৫</span>
+                                        <span class="notice-date">৩রা জানুয়ারী, ২০২৬</span>
                                         <h5 class="notice-title">পুরস্কার বিতরণী অনুষ্ঠান</h5>
-                                        <p class="notice-text">সেরা হাফেজ ও মেধাবী শিক্ষার্থীদের পুরস্কার বিতরণী অনুষ্ঠান সফলভাবে সম্পন্ন হয়েছে।</p>
-                                    </div>
-                                </div>
-
-                                <div class="notice-item">
-                                    <div class="notice-icon">
-                                        <i class="bi bi-people-fill text-secondary"></i>
-                                    </div>
-                                    <div class="notice-content">
-                                        <span class="notice-date">২০ নভেম্বর ২০২৫</span>
-                                        <h5 class="notice-title">অভিভাবক সভা</h5>
-                                        <p class="notice-text">আগামী মাসে অভিভাবক সভার আয়োজন করা হবে। সকল অভিভাবকদের উপস্থিতি কাম্য।</p>
+                                        <p class="notice-text">সেরা মেধাবী শিক্ষার্থীদের পুরস্কার বিতরণী অনুষ্ঠিত হইবে।</p>
                                     </div>
                                 </div>
                             </div>

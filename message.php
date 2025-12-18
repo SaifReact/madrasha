@@ -33,40 +33,81 @@
                         </div>
                         
                         <div class="message-text" style="text-align: justify; line-height: 2;">
-                            <p class="lead mb-4">
+                            <p class="lead mb-2">
                                 <strong>প্রিয় অভিভাবক, শিক্ষার্থী ও শুভাকাঙ্ক্ষীবৃন্দ,</strong>
                             </p>
                             
-                            <p class="mb-4">
+                            <p class="mb-2">
                                 আসসালামু আলাইকুম ওয়া রাহমাতুল্লাহি ওয়া বারাকাতুহু। সর্বপ্রথম মহান আল্লাহ তায়ালার দরবারে শুকরিয়া আদায় করছি যিনি আমাদেরকে এই পবিত্র শিক্ষা প্রতিষ্ঠান প্রতিষ্ঠার তৌফিক দান করেছেন।
                             </p>
                             
-                            <p class="mb-4">
+                            <p class="mb-2">
                                 মাদিনাতুল উলূম হাফিজিয়া মাদরাসা ও এতিমখানা শুধুমাত্র একটি শিক্ষা প্রতিষ্ঠান নয়, বরং এটি একটি আদর্শ ইসলামী শিক্ষা কেন্দ্র যেখানে কুরআন ও হাদীসের আলোকে শিক্ষার্থীদের মানসিক, আধ্যাত্মিক ও নৈতিক উন্নয়নের জন্য বিশেষ গুরুত্ব প্রদান করা হয়।
                             </p>
                             
-                            <p class="mb-4">
+                            <p class="mb-2">
                                 আমাদের লক্ষ্য হলো প্রতিটি শিক্ষার্থীকে কুরআন-হাদীসের জ্ঞানে সমৃদ্ধ করে তোলা এবং তাদেরকে একজন আদর্শ মুসলিম ও যোগ্য নাগরিক হিসেবে গড়ে তোলা। এতিম শিশুদের জন্য আমরা বিশেষ যত্ন ও আবাসিক সুবিধা প্রদান করে থাকি, যাতে তারাও সমাজে মাথা উঁচু করে দাঁড়াতে পারে।
                             </p>
                             
-                            <p class="mb-4">
+                            <p class="mb-2">
                                 আমি সকল শিক্ষক-শিক্ষিকা, কর্মকর্তা-কর্মচারী এবং দাতা-দাত্রীদের আন্তরিক কৃতজ্ঞতা জানাই যারা এই মহান কাজে নিঃস্বার্থভাবে অবদান রেখে চলেছেন। আপনাদের দোয়া ও সহযোগিতা আমাদের একান্ত প্রয়োজন।
                             </p>
                             
-                            <p class="mb-4">
+                            <p class="mb-2">
                                 মহান আল্লাহ তায়ালা এই প্রতিষ্ঠানকে কবুল করুন এবং এর মাধ্যমে দ্বীন ইসলামের খেদমত করার তৌফিক দান করুন।
                             </p>
                             
-                            <p class="mt-5">
+                            <p class="mt-3">
                                 <strong>জাজাকাল্লাহু খাইরান</strong><br>
-                                <strong>ওয়াসসালাম</strong>
                             </p>
                             
-                            <div class="signature-section mt-5 pt-4 border-top">
+                            <div class="signature-section mt-3 pt-2 border-top">
                                 <p class="mb-1"><strong>মুহাম্মদ ইকবাল হোসেন</strong></p>
                                 <p class="mb-1 text-muted">প্রতিষ্ঠাতা সভাপতি</p>
                                 <p class="text-muted small">মাদিনাতুল উলূম হাফিজিয়া মাদরাসা ও এতিমখানা</p>
                             </div>
+
+                        </div>
+
+                        <div class="message-text pt-2 border-top" style="text-align: justify; line-height: 2;">
+                            <p class="lead mb-4">
+                                <strong>Dear Parents, Students, and Well-Wishers,</strong>
+                            </p>
+                            
+                            <p class="mb-2">
+                               Assalamu Alaikum Wa Rahmatullahi Wa Barakatuh.
+                            </p>
+
+                            <p class="mb-2">
+                                All praise is due to Allah. I thank Almighty Allah for giving us the opportunity to establish this Islamic educational institution.
+                            </p>
+                            
+                            <p class="mb-2">
+                                Madinatul Ulum Hafizia Madrasa and Etimkhana is not just an educational institution, but an ideal Islamic education center where special emphasis is placed on the mental, spiritual, and moral development of students in the light of the Quran and Hadith.
+                            </p>
+                            
+                            <p class="mb-2">
+                                Our goal is to enrich each student with the knowledge of the Quran and Hadith and to shape them into ideal Muslims and responsible citizens. We provide special care and residential facilities for orphaned children so that they too can stand tall in society.
+                            </p>
+                            
+                            <p class="mb-2">
+                                I sincerely thank all the teachers, staff, and donors who have selflessly contributed to this great cause. Your prayers and support are greatly needed.
+                            </p>
+                            
+                            <p class="mb-2">
+                                May Almighty Allah accept this institution and grant us the ability to serve the deen of Islam through it.
+                            </p>
+                            
+                            <p class="mt-3">
+                                <strong>Jazakallahu Khairan</strong><br>
+                            </p>
+                            
+                            <div class="signature-section mt-3 pt-2 border-top">
+                                <p class="mb-1"><strong>Muhammad Iqbal Hossain</strong></p>
+                                <p class="mb-1 text-muted">Founder President</p>
+                                <p class="text-muted small">Madinatul Ulum Hafizia Madrasa and Etimkhana</p>
+                            </div>
+
                         </div>
                     </div>
                 </div>

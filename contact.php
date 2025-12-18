@@ -6,7 +6,7 @@
                 <div class="title-border mx-auto"></div>
             </div>
             <div class="row g-4">
-                <div class="col-lg-4" data-aos="fade-right">
+                <div class="col-lg-6" data-aos="fade-right">
                     <div class="contact-info">
                         <div class="info-item mb-4">
                             <div class="info-icon">
@@ -15,13 +15,23 @@
                             <div class="info-content">
                                 <h5>ঠিকানা</h5>
                                 <p>গোবিন্দপুর, ডাকঘর: আশারামপুর, উপজেলা: রায়পুরা, জেলা: নরসিংদী</p>
-                                <p>ফোন: +৮৮০ ১৯৭৮ ৩৩৩৪৪৮</p>
+                                <p>ফোন: +880 1978 333448</p>
                                 <p>ইমেইল: muhm-etimkhana@gmail.com</p>
-                            </div>
+                                <p>ওয়েব: https://muhm-etimkhana.com/</p><br/>
+                                <h5>অনুদান পাঠানোর মাধ্যম</h5>
+                                 <p>বিকাশ (মাদরাসা):  +880 1339 460357</p>
+                                 <p>নগদ (মাদরাসা): +880 1339 460357</p>
+                                 <p><b>ব্যাংক একাউন্ট বিবরণী:</b><br/>
+                                একাউন্টের নাম: <br/>মাদিনাতুল উলূম হাফিজিয়া মাদরাসা ও এতিমখানা<br/>
+                                অ্যাকাউন্ট নম্বর: <b>50-313-000-503</b><br/>
+                                ব্যাংক: ব্যাংক এশিয়া পিএলসি, পল্টন ব্রাঞ্চ<br/>
+                                রাউটিং নম্বর: 070-275-207<br/>
+                                SWIFT কোড: BALBBDDH</p>
+</div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-8" data-aos="fade-left">
+                <div class="col-lg-6" data-aos="fade-left">
                     <div class="contact-form">
                         <form>
                             <div class="row g-3">

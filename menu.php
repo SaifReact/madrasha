@@ -36,9 +36,15 @@ $contactUrl = 'index.php?p=' . encryptUrl('contact') . '&s=' . encryptUrl('conta
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link <?php echo ($current_page == 'mespage.php' || isActivePage('message')) ? 'active' : ''; ?>" href="<?php echo $messageUrl; ?>">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle <?php echo ($current_page == 'mespage.php' || isActivePage('message')) ? 'active' : ''; ?>" href="#" id="messageDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             <i class="bi bi-person-badge"></i> বাণী
                         </a>
+                        <ul class="dropdown-menu" aria-labelledby="messageDropdown">
+                            <li><a class="dropdown-item" href="mespage.php?p=<?php echo encryptUrl('president'); ?>">প্রতিষ্ঠাতা সভাপতি</a></li>
+                            <li><a class="dropdown-item" href="secmespage.php?p=<?php echo encryptUrl('secretary'); ?>">সাধারণ সম্পাদক</a></li>
+                            <li><a class="dropdown-item" href="images/executive_committee.pdf" target="_blank">কার্যকরী কমিটি</a></li>
+                        </ul>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link <?php echo isActivePage('courses') ? 'active' : ''; ?>" href="<?php echo $coursesUrl; ?>">
