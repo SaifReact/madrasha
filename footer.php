@@ -35,10 +35,63 @@
                     <div class="footer-widget">
                         <h5>সোশ্যাল মিডিয়া</h5>
                         <div class="social-links">
-                            <a href="#" class="social-link"><i class="bi bi-facebook"></i></a>
-                            <a href="#" class="social-link"><i class="bi bi-youtube"></i></a>
-                            <a href="#" class="social-link"><i class="bi bi-instagram"></i></a>
-                            <a href="#" class="social-link"><i class="bi bi-twitter"></i></a>
+                            <a href="https://www.facebook.com/share/1CR1S8S7VZ/" class="social-link"><i class="bi bi-facebook"></i></a>
+                            <a href="#" class="social-link" id="whatsappQRBtn"><i class="bi bi-whatsapp"></i></a>
+                                    <!-- WhatsApp QR Modal -->
+                                    <div id="whatsappQRModal" class="qr-modal" style="display:none;">
+                                        <span class="qr-modal-close">&times;</span>
+                                        <div style="display:flex;justify-content:center;align-items:center;height:90vh;">
+                                            <img src="images/qr.jpeg" alt="WhatsApp QR" style="max-width:80vw;max-height:80vh;border-radius:10px;box-shadow:0 0 20px #000;">
+                                        </div>
+                                    </div>
+                            <style>
+                            .qr-modal {
+                                display: none;
+                                position: fixed;
+                                z-index: 9999;
+                                padding-top: 60px;
+                                left: 0;
+                                top: 0;
+                                width: 100%;
+                                height: 100%;
+                                overflow: auto;
+                                background-color: rgba(0,0,0,0.9);
+                                text-align: center;
+                            }
+                            .qr-modal-close {
+                                position: absolute;
+                                top: 30px;
+                                right: 50px;
+                                color: #fff;
+                                font-size: 40px;
+                                font-weight: bold;
+                                cursor: pointer;
+                                z-index: 10000;
+                            }
+                            </style>
+                            <script>
+                            document.addEventListener('DOMContentLoaded', function() {
+                                var qrModal = document.getElementById('whatsappQRModal');
+                                var qrBtn = document.getElementById('whatsappQRBtn');
+                                var closeBtn = document.querySelector('.qr-modal-close');
+                                if(qrBtn) {
+                                    qrBtn.addEventListener('click', function(e) {
+                                        e.preventDefault();
+                                        qrModal.style.display = 'block';
+                                    });
+                                }
+                                if(closeBtn) {
+                                    closeBtn.onclick = function() {
+                                        qrModal.style.display = 'none';
+                                    };
+                                }
+                                qrModal.onclick = function(e) {
+                                    if (e.target === qrModal) {
+                                        qrModal.style.display = 'none';
+                                    }
+                                };
+                            });
+                            </script>
                         </div>
                         <div class="mt-4">
                             <h6>নামাজের সময়সূচী</h6>
