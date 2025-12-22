@@ -21,7 +21,7 @@
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
                     <div class="teacher-card text-center">
                         <div class="teacher-img">
-                            <img src="images/dummy.jpg" alt="Teacher" class="img-fluid">
+                            <img src="images/billal.png" alt="Teacher" class="img-fluid">
                         </div>
                          <div class="teacher-info">
                             <h4> হাফেজ মাওলানা </h4>
@@ -33,7 +33,7 @@
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
                     <div class="teacher-card text-center">
                         <div class="teacher-img">
-                            <img src="images/dummy.jpg" alt="Teacher" class="img-fluid">
+                            <img src="images/shafi.png" alt="Teacher" class="img-fluid">
                         </div>
                          <div class="teacher-info">
                             <h4> হাফেজ</h4>
