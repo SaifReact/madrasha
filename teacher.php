@@ -6,6 +6,19 @@
                 <div class="title-border mx-auto"></div>
             </div>
             <div class="row g-4">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="teacher-card text-center">
+                        <div class="teacher-img">
+                            <img src="images/dummy.jpg" alt="Teacher" class="img-fluid">
+                        </div>
+                         <div class="teacher-info">
+                            <h4> হাফেজ মাওলানা </h4>
+                            <h5> মুহাম্মদ বিলাল হোসাইন</h5>
+                            <p class="text-muted">উপদেষ্টা</p>
+                        </div>
+                    </div>
+                </div>
+                
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                     <div class="teacher-card text-center">
                         <div class="teacher-img">
@@ -18,18 +31,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                    <div class="teacher-card text-center">
-                        <div class="teacher-img">
-                            <img src="images/dummy.jpg" alt="Teacher" class="img-fluid">
-                        </div>
-                         <div class="teacher-info">
-                            <h4> হাফেজ মাওলানা </h4>
-                            <h5> মুহাম্মদ বিলাল হোসাইন</h5>
-                            <p class="text-muted">শিক্ষক</p>
-                        </div>
-                    </div>
-                </div>
+                
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
                     <div class="teacher-card text-center">
                         <div class="teacher-img">
