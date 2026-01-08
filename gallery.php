@@ -8,6 +8,22 @@
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                     <div class="gallery-item">
+                        <img src="images/under-10.jpeg" alt="Gallery" class="img-fluid">
+                        <div class="gallery-overlay">
+                            <i class="bi bi-zoom-in"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="gallery-item">
+                        <img src="images/under-11.jpeg" alt="Gallery" class="img-fluid">
+                        <div class="gallery-overlay">
+                            <i class="bi bi-zoom-in"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="gallery-item">
                         <img src="images/inugration.jpeg" alt="Gallery" class="img-fluid">
                         <div class="gallery-overlay">
                             <i class="bi bi-zoom-in"></i>
